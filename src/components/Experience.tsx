@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Calendar } from 'lucide-react';
+import { GraduationCap, Calendar } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 export const Experience: React.FC = () => {
@@ -8,7 +8,7 @@ export const Experience: React.FC = () => {
   return (
     <section id="experience" className="section">
       <div className="container">
-        <h2 className="centered">Experience</h2>
+        <h2 className="centered">Education</h2>
         
         <div className="timeline">
           {experiences.map((exp) => (
@@ -20,7 +20,7 @@ export const Experience: React.FC = () => {
                   <div>
                     <h3 className="timeline-role">{exp.role}</h3>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.25rem' }}>
-                      <Briefcase size={16} style={{ color: 'var(--accent-light)' }} />
+                      <GraduationCap size={16} style={{ color: 'var(--accent-light)' }} />
                       <span className="timeline-company">{exp.company}</span>
                     </div>
                   </div>

@@ -29,7 +29,7 @@ export const About: React.FC = () => {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                 <GraduationCap size={18} style={{ color: 'var(--accent-light)' }} />
-                <span>B.S. in Computer Science</span>
+                <span>Bachelor of Computer Science</span>
               </div>
             </div>
 

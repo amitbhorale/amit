@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
         <div className="footer-nav">
           <a href="#hero" onClick={(e) => scrollToSection(e, 'hero')} className="footer-link">Home</a>
           <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="footer-link">About</a>
-          <a href="#experience" onClick={(e) => scrollToSection(e, 'experience')} className="footer-link">Experience</a>
+          <a href="#experience" onClick={(e) => scrollToSection(e, 'experience')} className="footer-link">Education</a>
           <a href="#projects" onClick={(e) => scrollToSection(e, 'projects')} className="footer-link">Projects</a>
           <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="footer-link">Contact</a>
         </div>
